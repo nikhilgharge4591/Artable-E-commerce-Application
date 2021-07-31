@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="CartTableCell" rowHeight="101" id="KGk-i7-Jjw" customClass="CartTableCell" customModule="Artable" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="494" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="494" height="101"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Ezi-ha-gu5">
+                        <rect key="frame" x="8" y="8" width="478" height="85"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="animal_1" translatesAutoresizingMaskIntoConstraints="NO" id="t3c-mO-e1r" customClass="RoundedImageView" customModule="Artable" customModuleProvider="target">
+                                <rect key="frame" x="8" y="8" width="69" height="69"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="t3c-mO-e1r" secondAttribute="height" multiplier="1:1" id="rNR-O3-VYN"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Product Title $99.99" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3JQ-Wb-2n9">
+                                <rect key="frame" x="84" y="32" width="158" height="23"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Futura-Medium" family="Futura" pointSize="17"/>
+                                <color key="textColor" red="0.0057817387180000004" green="0.020742969999999999" blue="0.11406354890000001" alpha="0.69009524830000002" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JUI-Dy-Qqn">
+                                <rect key="frame" x="438" y="27.5" width="28" height="30"/>
+                                <state key="normal" image="red_trash"/>
+                                <connections>
+                                    <action selector="removeItemBtnClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="kxI-t4-bns"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="JUI-Dy-Qqn" secondAttribute="trailing" constant="12" id="0d4-TK-IFz"/>
+                            <constraint firstItem="t3c-mO-e1r" firstAttribute="top" secondItem="Ezi-ha-gu5" secondAttribute="top" constant="8" id="EPo-30-w3x"/>
+                            <constraint firstAttribute="bottom" secondItem="t3c-mO-e1r" secondAttribute="bottom" constant="8" id="QpD-IO-Zhf"/>
+                            <constraint firstItem="JUI-Dy-Qqn" firstAttribute="centerY" secondItem="Ezi-ha-gu5" secondAttribute="centerY" id="evX-BV-Tg7"/>
+                            <constraint firstItem="t3c-mO-e1r" firstAttribute="leading" secondItem="Ezi-ha-gu5" secondAttribute="leading" constant="8" id="xkz-QY-1dE"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Ezi-ha-gu5" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="F1d-EA-ywp"/>
+                    <constraint firstAttribute="bottom" secondItem="Ezi-ha-gu5" secondAttribute="bottom" constant="8" id="TnB-oP-kyD"/>
+                    <constraint firstAttribute="trailing" secondItem="Ezi-ha-gu5" secondAttribute="trailing" constant="8" id="yl0-EP-bZc"/>
+                    <constraint firstItem="Ezi-ha-gu5" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="8" id="zqY-aO-apS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="productImage" destination="t3c-mO-e1r" id="7iu-Cc-bks"/>
+                <outlet property="productTitleLbl" destination="3JQ-Wb-2n9" id="BYX-Qh-43v"/>
+                <outlet property="removeItemBtn" destination="JUI-Dy-Qqn" id="B5W-L2-Mwt"/>
+            </connections>
+            <point key="canvasLocation" x="-1.6000000000000001" y="179.46026986506749"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="animal_1" width="1500" height="1023"/>
+        <image name="red_trash" width="28" height="30"/>
+    </resources>
+</document>
