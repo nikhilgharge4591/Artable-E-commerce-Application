@@ -18,3 +18,8 @@ Project Description:
 
 <img src="https://user-images.githubusercontent.com/61109207/127745879-2f6d1be6-8e2a-4663-818d-a8ac1c850869.png" width="220" height="450"> <img height="350" hspace="20"/><img src="https://user-images.githubusercontent.com/61109207/127745991-46e476e4-cf19-4949-85a0-8e64726e958f.png" width="220" height="450">
 
+❏ Category  and Category Detail Screen
+
+<img src="https://user-images.githubusercontent.com/61109207/127746343-dc0dbd65-a2b9-4335-b0fe-cf72e569d2be.png" width="220" height="450"> <img height="350" hspace="20"/><img src="https://user-images.githubusercontent.com/61109207/127746345-6d12835d-1078-476c-b176-9d74db54e834.png" width="220" height="450">
+
+
