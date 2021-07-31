@@ -13,3 +13,8 @@ Project Description:
 ❏ Login and Home Screen
 
 <img src="https://user-images.githubusercontent.com/61109207/127745472-fab72011-88d4-4ac5-a3f8-bdab765db884.png" width="220" height="450"> <img height="350" hspace="20"/><img src="https://user-images.githubusercontent.com/61109207/127745750-4b6b2213-3a08-47af-a7e6-08dad9062aea.png" width="220" height="450">
+
+❏ Register and Forgot Passowrd Screen
+
+<img src="https://user-images.githubusercontent.com/61109207/127745879-2f6d1be6-8e2a-4663-818d-a8ac1c850869.png" width="220" height="450"> <img height="350" hspace="20"/><img src="https://user-images.githubusercontent.com/61109207/127745991-46e476e4-cf19-4949-85a0-8e64726e958f.png" width="220" height="450">
+
