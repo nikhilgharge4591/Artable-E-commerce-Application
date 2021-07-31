@@ -6,3 +6,10 @@ Project Description:
  As an iOS developer, I have developed Artable an e-commerce application that can be used for online shopping.
 
  The most important features in this e-commerce application are the integration of stripe (payment gateway), Firebase for backend functionalities, and Cloud functions to interact with stripe
+
+
+Project Description:
+
+❏ Login and Home Screen
+
+<img src="https://user-images.githubusercontent.com/61109207/127745472-fab72011-88d4-4ac5-a3f8-bdab765db884.png" width="220" height="450"> <img height="350" hspace="20"/><img src="https://user-images.githubusercontent.com/61109207/127745750-4b6b2213-3a08-47af-a7e6-08dad9062aea.png" width="220" height="450">
